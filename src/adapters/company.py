@@ -26,3 +26,5 @@ class CompanyAdapter:
         for key, value in body.items():
             if hasattr(self, key):
                 setattr(self, key, value)
+
+

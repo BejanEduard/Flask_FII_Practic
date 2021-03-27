@@ -26,3 +26,4 @@ def validate_company_body(body):
         if not body[field]:
             raise InvalidBody(f"Field <{field}>  is invalid", status=400)
 
+

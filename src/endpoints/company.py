@@ -41,6 +41,15 @@ def put_company(context, company_id):
     return Response(status=201, response="Company updated successfully")
 
 
+@company_bp.route('/<int:company_id>', methods=['PATCH'])
+@http_handling
+@session
+def patch_company(context, company_id):
+    body = request.json
+    Company.patch_company(context, body, company_id)
+    return Response(status=201, response="Company patched successfully")
+
+
 @company_bp.route('/<int:company_id>', methods=['DELETE'])
 @http_handling
 @session

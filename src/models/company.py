@@ -48,6 +48,15 @@ class Company(Base, CompanyAdapter):
         context.commit()
 
     @classmethod
+    def patch_company(cls, context, body, company_id):
+        company = cls.get_company_by_id(context, company_id)
+        if not company:
+            return Conflict("The company you are trying to patch is missing", status=404)
+
+        company.to_object(body)
+        context.commit()
+
+    @classmethod
     def delete_company(cls, context, company_id):
         company = cls.get_company_by_id(context,company_id)
         if not company:
