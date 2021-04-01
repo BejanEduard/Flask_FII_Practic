@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0593a9c3-8094-4c3b-aa35-a5ff8bddbf9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exercises.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapters/company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapters/company.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fii_practic_database" beforeDir="false" afterPath="$PROJECT_DIR$/fii_practic_database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapters/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapters/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/endpoints/company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpoints/company.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/company.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/endpoints/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpoints/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user_company.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user_company.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/exceptions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,15 +77,15 @@
       <method v="2" />
     </configuration>
     <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fii-practic-flask-boilerplate" />
+      <module name="fii-practic-flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\Downloads\fii-practic-flask\fii-practic-flask\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
@@ -122,5 +128,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
