@@ -27,3 +27,6 @@ def validate_company_body(body):
             raise InvalidBody(f"Field <{field}>  is invalid", status=400)
 
 
+def validate_company_assign(body):
+    if not body['company_id'] or not body['user_id']:
+        raise InvalidBody("Company or user missing.", status=400)
